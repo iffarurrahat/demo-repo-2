@@ -72,6 +72,68 @@
     color: #fff;
     text-decoration: none;
     background: orange;
-    padding: 12px 40px;
+    padding: 12px 30px;
     border-radius: 3px;
+}/*header css code end*/
+.first-sec-bg{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.first-section{
+    display: flex;
+}
+.same-section{
+    width: 50%;
+    margin-top: 50px;
+    padding: 0 5%;
+}
+.same-section img{
+    width: 100%;
+}
+.same-section h1{
+    font-size: 50px;
+}
+.same-section h2{
+    font-size: 45px;
+    margin: 20px 0 15px 0;
+}
+.same-section span{
+    color: orange;
+}
+.same-section  h3{
+    margin-bottom: 30px;
+}
+.same-section p{
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+.same-section a{
+    color: orange;
+    text-decoration: none;
+    padding: 12px 30px;
+    border: 2px solid orange;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.mr-top{
+    margin-top: 6%;
+}
+.same-section a:hover{
+    background: orange;
+    color: #fff;
+}/*first-section css end*/
+.second-sec-bg{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.second-section{
+    display: flex;
+    margin-top: 50px;
+}
+.mr-buttpm{
+    margin-bottom: 20px;
+}
+.mr-top-2{
+    margin-top: 100px;
 }
