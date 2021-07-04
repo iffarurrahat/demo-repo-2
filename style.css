@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#header-bg{
+    background-image: url(images/header_bg.svg);
+    background-repeat:no-repeat ;
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 5%;
+}
+.logo h1{
+    font-size: 40px;
+    color: #fff;
+}
+.logo span{
+    font-family: 'Dancing Script', cursive;
+    color: orange;
+    font-size: 45px;
+}
+.main-menu ul{
+    display: flex;
+}
+.main-menu ul li{
+    list-style-type: none;
+}
+.main-menu ul li a{
+    text-decoration: none;
+    margin-left: 25px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.header-section{
+    display: flex;
+    padding: 0 5%;
+    margin-top: 8%;
+}
+.socila-icon a img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+.left-items h1{
+    font-size: 80px;
+    color: #fff;
+}
+.left-items h3{
+    margin: 10px 0 30px 0;
+    color: #fff;
+    font-weight: normal;
+}
+.left-items p{
+    color: #fff;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    width: 50%;
+}
+.left-items span{
+    color: orange;
+}
+.left-items a{
+    color: #fff;
+    text-decoration: none;
+    background: orange;
+    padding: 12px 40px;
+    border-radius: 3px;
+}
